@@ -1,0 +1,36 @@
+﻿<Window x:Name="winNewReservation" x:Class="HotelReservations.NewReservation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelReservations"
+        mc:Ignorable="d"
+        Title="NewReservation" Height="388" Width="694">
+    <Grid Background="#FFE6E6F0">
+        <Button x:Name="btnMainMenuP2" Content="Main Menu" HorizontalAlignment="Left" Margin="48,39,0,0" VerticalAlignment="Top" Width="115" FontFamily="Verdana" Click="btnMainMenuP2_Click"/>
+        <Button x:Name="btnNewReservationP2" Content="New Reservation" HorizontalAlignment="Left" Margin="199,39,0,0" VerticalAlignment="Top" Width="115" FontFamily="Verdana" Click="btnNewReservationP2_Click"/>
+        <Button x:Name="btnRoomManagementP2" Content="Room Management" HorizontalAlignment="Left" Margin="344,39,0,0" VerticalAlignment="Top" Width="119" FontFamily="Verdana" Click="btnRoomManagementP2_Click"/>
+        <Button x:Name="btnReservationsReportP2" Content="Reservations Report" HorizontalAlignment="Left" Margin="499,39,0,0" VerticalAlignment="Top" Width="124" FontFamily="Verdana" Click="btnReservationsReportP2_Click"/>
+        <DatePicker x:Name="dateCheckOutP2" HorizontalAlignment="Left" Margin="134,204,0,0" VerticalAlignment="Top" Width="120"/>
+        <DatePicker x:Name="dateCheckInP2" HorizontalAlignment="Left" Margin="134,154,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cboRoomTypeP2" HorizontalAlignment="Left" Margin="134,105,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+            <ComboBoxItem Content="One King"/>
+            <ComboBoxItem Content="One King Deluxe"/>
+            <ComboBoxItem Content="Two Queens"/>
+            <ComboBoxItem Content="Two Queen Deluxe"/>
+            <ComboBoxItem Content="One King Suite"/>
+            <ComboBoxItem Content="One King Presidential Suite"/>
+        </ComboBox>
+        <Slider x:Name="sldRoomNumberP2" HorizontalAlignment="Left" Margin="134,254,0,0" VerticalAlignment="Top" Width="120" Minimum="1"/>
+        <Label x:Name="lblRoomTypeLabelP2" Content="Room Type:" HorizontalAlignment="Left" Margin="8,101,0,0" VerticalAlignment="Top" Height="32" Width="88" FontFamily="Verdana"/>
+        <Label x:Name="lblCheckInDateLabelP2" Content="Check-In Date:" HorizontalAlignment="Left" Margin="8,154,0,0" VerticalAlignment="Top" Height="32" Width="113" FontFamily="Verdana"/>
+        <Label x:Name="lblCheckOutDateP2" Content="Check-Out Date:" HorizontalAlignment="Left" Margin="8,203,0,0" VerticalAlignment="Top" Height="32" Width="123" FontFamily="Verdana"/>
+        <Label x:Name="lblRoomNumbersLabelP2" Content="Number of Rooms:" HorizontalAlignment="Left" Margin="8,249,0,0" VerticalAlignment="Top" Height="32" Width="123" FontFamily="Verdana"/>
+        <Button x:Name="btnGetQuoteP2" Content="Get Quote" HorizontalAlignment="Left" Margin="134,319,0,0" VerticalAlignment="Top" Width="120" FontFamily="Verdana" Click="btnGetQuoteP2_Click"/>
+        <Button x:Name="btnProceedQuoteP2" Content="Proceed With Quote" HorizontalAlignment="Left" Margin="406,319,0,0" VerticalAlignment="Top" Width="128" FontFamily="Verdana" Click="btnProceedQuoteP2_Click"/>
+        <Label x:Name="lblNewReservationP2" Content="New Reservation" HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="214" FontSize="16" FontFamily="Verdana"/>
+        <Image x:Name="imgP2" HorizontalAlignment="Left" Height="50" Margin="636,319,0,-12" VerticalAlignment="Top" Width="50" Source="Images/Image1.png"/>
+        <DataGrid x:Name="dtgQuoteP2" HorizontalAlignment="Left" Margin="344,101,0,0" VerticalAlignment="Top" Height="171" Width="279"/>
+
+    </Grid>
+</Window>

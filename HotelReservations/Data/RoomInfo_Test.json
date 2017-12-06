@@ -1,0 +1,37 @@
+[{
+    "RoomType": "OneKing",
+    "Amount": "30",
+    "Rate": "179",
+    
+}, {
+    "RoomType": "OneKingDeluxe",
+    "Amount": "10",
+    "Rate": "189",
+    
+}, {
+    
+    "RoomType": "TwoQueens",
+    "Amount": "30",
+    "Rate": "189",
+    
+}, {
+    
+    "RoomType": "TwoQueenDeluxe",
+    "Amount": "15",
+    "Rate": "214",
+    
+}, {
+    
+    "RoomType": "OneKingSuite",
+    "Amount": "10",
+    "Rate": "249",
+    
+}, {
+    
+    "RoomType": "OneKingPresidentialSuite",
+    "Amount": "30",
+    "Rate": "289",
+    
+}, {
+   
+}]

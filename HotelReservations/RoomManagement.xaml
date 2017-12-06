@@ -1,0 +1,57 @@
+﻿<Window x:Class="HotelReservations.RoomManagement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelReservations"
+        mc:Ignorable="d"
+        Title="RoomManagement" Height="388" Width="694">
+    <Grid Background="#FFE6E6F0">
+        <Label x:Name="lblMainMenuP1" Content="Room Management" HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="214" FontSize="16" FontFamily="Verdana"/>
+        <Image x:Name="imgP1" HorizontalAlignment="Left" Height="50" Margin="636,317,0,-10" VerticalAlignment="Top" Width="50" Source="Images/Image1.png"/>
+        <Label x:Name="lblRoomTypeP3" Content="Room Type" HorizontalAlignment="Left" Margin="72,96,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold" FontFamily="Verdana"/>
+        <Label x:Name="lblNumberofRoomsP3" Content="Number of Rooms" HorizontalAlignment="Left" Margin="272,96,0,0" VerticalAlignment="Top" Width="133" FontWeight="Bold" FontFamily="Verdana"/>
+        <Label x:Name="lblPriceP3" Content="Price" HorizontalAlignment="Left" Margin="506,96,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold" FontFamily="Verdana"/>
+        <Label x:Name="lblRoomTypeOneKingp3" Content="One King" HorizontalAlignment="Left" Margin="72,127,0,0" VerticalAlignment="Top" Width="108" FontFamily="Verdana"/>
+        <Label x:Name="lblRoomTypeOneKingDeluxeP3" Content="One King Deluxe" HorizontalAlignment="Left" Margin="72,158,0,0" VerticalAlignment="Top" Width="121" FontFamily="Verdana"/>
+        <Label x:Name="lblRoomTypeQueensP3" Content="Two Queens" HorizontalAlignment="Left" Margin="72,192,0,0" VerticalAlignment="Top" Width="108" FontFamily="Verdana"/>
+        <Label x:Name="lblRoomTypeQueensDeluxeP3" Content="Two Queen Deluxe" HorizontalAlignment="Left" Margin="72,222,0,0" VerticalAlignment="Top" Width="121" FontFamily="Verdana"/>
+        <Label x:Name="lblRoomTypeKingSuiteP3" Content="One King Suite" HorizontalAlignment="Left" Margin="72,254,0,0" VerticalAlignment="Top" Width="108" FontFamily="Verdana"/>
+        <Label x:Name="lblRoomTypePresidentialP3" Content="One King Presidential Suite" HorizontalAlignment="Left" Margin="72,284,0,0" VerticalAlignment="Top" Width="183" FontFamily="Verdana"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="26" Margin="272,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" TextAlignment="Center"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="26" Margin="346,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" TextAlignment="Center"/>
+        <TextBox x:Name="txtRoomNumberKingDeluxeP3" HorizontalAlignment="Left" Height="26" Margin="272,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" Text="10" TextAlignment="Center" TabIndex="2"/>
+        <TextBox x:Name="txtRoomNumberKingDeluxe1P3" HorizontalAlignment="Left" Height="26" Margin="346,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" TextAlignment="Center" TabIndex="8"/>
+        <TextBox x:Name="txtRoomNumberQueensP3" HorizontalAlignment="Left" Height="26" Margin="272,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" Text="30" TextAlignment="Center" TabIndex="3"/>
+        <TextBox x:Name="txtRoomNumberQueens1P3" HorizontalAlignment="Left" Height="26" Margin="346,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" TextAlignment="Center" TabIndex="9"/>
+        <TextBox x:Name="txtRoomNumberQueensDeluxeP3" HorizontalAlignment="Left" Height="26" Margin="272,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" Text="15" TextAlignment="Center" TabIndex="4"/>
+        <TextBox x:Name="txtRoomNumberQueensDeluxe1P3" HorizontalAlignment="Left" Height="26" Margin="346,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" TextAlignment="Center" TabIndex="10"/>
+        <TextBox x:Name="txtRoomNumberKingSuiteP3" HorizontalAlignment="Left" Height="26" Margin="272,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" Text="10" TextAlignment="Center" TabIndex="5"/>
+        <TextBox x:Name="txtRoomNumberKingSuite1P3" HorizontalAlignment="Left" Height="26" Margin="346,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" TextAlignment="Center" TabIndex="11"/>
+        <TextBox x:Name="txtRoomNumberPresidentialP3" HorizontalAlignment="Left" Height="26" Margin="272,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" Text="5" TextAlignment="Center" TabIndex="6"/>
+        <TextBox x:Name="txtRoomNumberPresidential1P3" HorizontalAlignment="Left" Height="26" Margin="346,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" TextAlignment="Center" TabIndex="12"/>
+        <TextBox x:Name="txtRoomNumberKingP3" HorizontalAlignment="Left" Height="26" Margin="273,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" Text="30" TextAlignment="Center" TabIndex="1"/>
+        <TextBox x:Name="txtRoomNumberKing1P3" HorizontalAlignment="Left" Height="26" Margin="347,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" TextAlignment="Center" TabIndex="7"/>
+        <TextBox x:Name="textBox_Copy13" HorizontalAlignment="Left" Height="26" Margin="468,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" TextAlignment="Center"/>
+        <TextBox x:Name="textBox_Copy14" HorizontalAlignment="Left" Height="26" Margin="542,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" TextAlignment="Center"/>
+        <TextBox x:Name="txtPriceKingDeluxeP3" HorizontalAlignment="Left" Height="26" Margin="470,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" Text="$189" TextAlignment="Center" TabIndex="14"/>
+        <TextBox x:Name="txtPriceKingDeluxe1P3" HorizontalAlignment="Left" Height="26" Margin="544,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" TextAlignment="Center" TabIndex="20"/>
+        <TextBox x:Name="txtPriceQueensP3" HorizontalAlignment="Left" Height="26" Margin="470,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" Text="$189" TextAlignment="Center" TabIndex="15"/>
+        <TextBox x:Name="txtPriceQueens1P3" HorizontalAlignment="Left" Height="26" Margin="544,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" TextAlignment="Center" TabIndex="21"/>
+        <TextBox x:Name="txtPriceQueenDeluxeP3" HorizontalAlignment="Left" Height="26" Margin="470,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" Text="$214" TextAlignment="Center" TabIndex="16"/>
+        <TextBox x:Name="txtPriceQueenDeluxe1P3" HorizontalAlignment="Left" Height="26" Margin="544,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" TextAlignment="Center" TabIndex="22"/>
+        <TextBox x:Name="txtPriceKingSuiteP3" HorizontalAlignment="Left" Height="26" Margin="470,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" Text="$249" TextAlignment="Center" TabIndex="17"/>
+        <TextBox x:Name="txtPriceKingSuite1P3" HorizontalAlignment="Left" Height="26" Margin="544,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" TextAlignment="Center" TabIndex="23"/>
+        <TextBox x:Name="txtPricePresidentialP3" HorizontalAlignment="Left" Height="26" Margin="470,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" Text="$289" TextAlignment="Center" TabIndex="18"/>
+        <TextBox x:Name="txtPricePresidential1P3" HorizontalAlignment="Left" Height="26" Margin="544,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" TextAlignment="Center" TabIndex="24"/>
+        <TextBox x:Name="txtPriceKingP3" HorizontalAlignment="Left" Height="26" Margin="470,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" Text="$179" TextAlignment="Center" TabIndex="13"/>
+        <TextBox x:Name="txtPriceKing1P3" HorizontalAlignment="Left" Height="26" Margin="544,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" FontFamily="Verdana" TextAlignment="Center" TabIndex="19"/>
+        <Label x:Name="lblInformationP3" Content="Please enter the new value on the right hand side" HorizontalAlignment="Left" Margin="172,69,0,0" VerticalAlignment="Top" Width="349" FontFamily="Verdana" FontStyle="Italic" FontWeight="Bold"/>
+        <Button x:Name="btnMainMenuP3" Content="Main Menu" HorizontalAlignment="Left" Margin="48,39,0,0" VerticalAlignment="Top" Width="115" FontFamily="Verdana"/>
+        <Button x:Name="btnNewReservationP3" Content="New Reservation" HorizontalAlignment="Left" Margin="199,39,0,0" VerticalAlignment="Top" Width="115" FontFamily="Verdana"/>
+        <Button x:Name="btnRoomManagementP3" Content="Room Management" HorizontalAlignment="Left" Margin="344,39,0,0" VerticalAlignment="Top" Width="119" FontFamily="Verdana"/>
+        <Button x:Name="btnReservationsReportP3" Content="Reservations Report" HorizontalAlignment="Left" Margin="499,39,0,0" VerticalAlignment="Top" Width="124" FontFamily="Verdana"/>
+        <Button x:Name="btnSubmit" Content="Submit Change" HorizontalAlignment="Left" Margin="470,317,0,0" VerticalAlignment="Top" Width="129" Height="30"/>
+    </Grid>
+
+</Window>

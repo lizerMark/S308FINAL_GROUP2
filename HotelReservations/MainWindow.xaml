@@ -1,0 +1,20 @@
+﻿<Window x:Class="FinalProject_Team.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalProject_Team"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="362.766" Width="664.362">
+    <Grid>
+        <Button x:Name="btnMainMenuP1" Content="Main Menu" HorizontalAlignment="Left" Margin="38,39,0,0" VerticalAlignment="Top" Width="115"/>
+        <Button x:Name="btnNewReservationP1" Content="New Reservation" HorizontalAlignment="Left" Margin="200,39,0,0" VerticalAlignment="Top" Width="115"/>
+        <Button x:Name="btnRoomManagementP1" Content="Room Management" HorizontalAlignment="Left" Margin="352,39,0,0" VerticalAlignment="Top" Width="115"/>
+        <Button x:Name="btnReservationsReportP1" Content="Reservations Report" HorizontalAlignment="Left" Margin="500,39,0,0" VerticalAlignment="Top" Width="115"/>
+        <Button x:Name="btnMakeAReservation" Content="Make A Reservation" HorizontalAlignment="Left" Margin="445,223,0,0" VerticalAlignment="Top" Width="170" Height="39" FontFamily="Verdana" FontSize="16"/>
+        <Rectangle HorizontalAlignment="Left" Height="218" Margin="28,76,0,0" Stroke="Black" VerticalAlignment="Top" Width="611"/>
+        <Label x:Name="lblOurLogo" Content="OUR LOGO" HorizontalAlignment="Left" Height="25" Margin="523,297,0,0" VerticalAlignment="Top" Width="101"/>
+        <Label x:Name="lblHotelLogo" Content="HOTEL LOGO" HorizontalAlignment="Left" Height="25" Margin="35,4,0,0" VerticalAlignment="Top" Width="101"/>
+
+    </Grid>
+</Window>

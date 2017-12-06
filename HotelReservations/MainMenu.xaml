@@ -1,0 +1,19 @@
+﻿<Window x:Name="winMainMenu" x:Class="HotelReservations.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelReservations"
+        mc:Ignorable="d"
+        Title="MainMenu" Height="388" Width="694">
+    <Grid Background="#FFE6E6F0">
+        <Image x:Name="image" HorizontalAlignment="Left" Height="258" VerticalAlignment="Top" Width="427" Margin="135,69,0,0" Source="Images/The-Peninsula-Hong-Kong-860.jpg"/>
+        <Button x:Name="btnMainMenuP1" Content="Main Menu" HorizontalAlignment="Left" Margin="38,39,0,0" VerticalAlignment="Top" Width="115" FontFamily="Verdana"/>
+        <Button x:Name="btnNewReservationP1" Content="New Reservation" HorizontalAlignment="Left" Margin="188,39,0,0" VerticalAlignment="Top" Width="115" FontFamily="Verdana"/>
+        <Button x:Name="btnRoomManagementP1" Content="Room Management" HorizontalAlignment="Left" Margin="345,39,0,0" VerticalAlignment="Top" Width="123" FontFamily="Verdana"/>
+        <Button x:Name="btnReservationsReportP1" Content="Reservations Report" HorizontalAlignment="Left" Margin="500,39,0,0" VerticalAlignment="Top" Width="124" FontFamily="Verdana"/>
+        <Button x:Name="btnMakeAReservationP1" Content="Make A Reservation" HorizontalAlignment="Left" Margin="360,276,0,0" VerticalAlignment="Top" Width="170" Height="39" FontFamily="Verdana" FontSize="16"/>
+        <Label x:Name="lblMainMenuP1" Content="Main Menu" HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="214" FontSize="16" FontFamily="Verdana"/>
+        <Image x:Name="imgP1" HorizontalAlignment="Left" Height="50" Margin="636,317,0,-10" VerticalAlignment="Top" Width="50" Source="Images/Image1.png"/>
+    </Grid>
+</Window>

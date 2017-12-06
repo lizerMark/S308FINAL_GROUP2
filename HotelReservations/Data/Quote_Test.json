@@ -1,0 +1,18 @@
+[{
+    "NumberofNights": "3",
+    "RateperNight": "179",
+    "Subtotal": "537",
+    "Tax": "37.59",
+    "ConvenienceFee": "30",
+    "Total": "604.59",
+    
+}, {
+    "NumberofNights": "2",
+    "RateperNight": "214",
+    "Subtotal": "428",
+    "Tax": "29.96",
+    "ConvenienceFee": "20",
+    "Total": "477.96",
+    
+   
+}]
